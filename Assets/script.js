@@ -2,8 +2,14 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 $(function () {
+  // variables for the date in header
   var currentDay = $('#currentDay');
+  // variable current, day, and date
   var today = dayjs();
+  var dayWeek = today.format('dddd');
+  var currentDate = today.format("MMMM D");
+  // variable for the container
+  var containerLg = $('.container-lg');
 
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
@@ -23,5 +29,6 @@ $(function () {
   // attribute of each time-block be used to do this?
   //
   // TODO: Add code to display the current date in the header of the page.
-  currentDay.text(today.format("MMM D, YYYY"));
+  currentDay.text(dayWeek + ", " + currentDate);
+
 });
