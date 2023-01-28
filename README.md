@@ -50,3 +50,5 @@ N/A
 Application deployed at https://bradenkim22.github.io/time-block/
 
 ## License
+
+Please refer to LICENSE in repo.
