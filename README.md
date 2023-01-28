@@ -1,10 +1,7 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# 05 Time Block
 
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+## Description
+This is a web application to practice jQuery. It is a work scheduler/planner. You can use it to edit and save your day's activities by the hour.
 
 ## User Story
 
@@ -32,68 +29,24 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following animation demonstrates the application functionality:
+## Mock-Up
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![](./Assets/05-third-party-apis-homework-demo.gif)
 
-## Grading Requirements
+## Installation
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+N/A
 
-This Challenge is graded based on the following criteria:
+## Usage
 
-### Technical Acceptance Criteria: 40%
+This is a work scheduler. You can edit your schedule by the hour and save it with the save button. It will save, after pressing the save button, even if the page is refreshed or closed out.
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Credits
 
-  * Uses a date utility library to work with date and time
+N/A
 
-### Deployment: 32%
+## Deployment
 
-* Application deployed at live URL
+Application deployed at https://bradenkim22.github.io/time-block/
 
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## License
